@@ -1,5 +1,5 @@
 # Milestone02_K18
-Azmi Alfatih Salahuddin (16520001),
+Azmi Alfatih Salahuddin (16520001),<br>
 Rozan Fadhil Al Hafidz (16520141),
 Maria Khelli (16520184),
 Hafidz Nur Rahman Ghozali (16520186),

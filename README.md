@@ -1,11 +1,12 @@
 # Milestone02_K18
+### Kelompok 18 - Nama Kelompok
 Azmi Alfatih Salahuddin (16520001),<br>
-Rozan Fadhil Al Hafidz (16520141),
-Maria Khelli (16520184),
-Hafidz Nur Rahman Ghozali (16520186),
-Ubaidillah Ariq Prathama (16520308),
-Alifia Rahmah (16520309),
-Mahesa Lizardy (16520362),
-Fransiskus Davin Anwari (16520405),
-Kent Liusudarso (16520477),
-Thomas Stefen Mardianto (16520498),
+Rozan Fadhil Al Hafidz (16520141),<br>
+Maria Khelli (16520184),<br>
+Hafidz Nur Rahman Ghozali (16520186),<br>
+Ubaidillah Ariq Prathama (16520308),<br>
+Alifia Rahmah (16520309),<br>
+Mahesa Lizardy (16520362),<br>
+Fransiskus Davin Anwari (16520405),<br>
+Kent Liusudarso (16520477),<br>
+Thomas Stefen Mardianto (16520498),<br>

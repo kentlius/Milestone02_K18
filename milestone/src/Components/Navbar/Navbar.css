@@ -1,0 +1,143 @@
+.box-nav{
+    background-color: #222831;
+    position: absolute;
+    width: 10vh;
+    height: 100vh;
+}
+
+.bars,
+.close{
+    position: absolute;
+    z-index: 1;
+}
+
+.close{
+    left: 40px;
+    animation: slide .5s ease-out .25s forwards;
+    opacity: 0;
+}
+
+@keyframes slide{
+    0%{
+        left: 40px;
+        opacity: 0;
+    }
+    100%{
+        left: 130px;
+        opacity: 1;
+    }
+}
+
+.nav-btn{
+    width: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    margin: 10px 15px;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    background-color: #222831;
+    height: 100vh;
+    margin: 0 15px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: flex-start;
+    padding-top: 60px;
+}
+
+.active{
+    width: 30vh;
+    animation: slide-kanan .8s ease-in-out forwards;
+}
+
+@keyframes slide-kanan {
+    0%{
+        width: 10vh;
+    }
+    100%{
+        width: 30vh;
+    }
+}
+
+/* .bars-active{
+    animation: bars .5s ease-in-out forwards;
+} */
+
+@keyframes bars {
+    0%{
+        left: 40px;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
+
+/* .inactive{
+    animation: tutup 1s ease-in-out forwards;
+} */
+
+@keyframes tutup{
+    0%{
+        width: 30vh;
+    }
+    100%{
+        width: 10vh;
+    }
+}
+  
+.nav-items{
+    margin: 10px 0;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+.nav-items span{
+    font-size: small;
+    opacity: 0;
+}
+
+.fade-in{
+    animation: fade-in .4s ease-in-out .4s forwards;
+}
+
+.fade-out{
+    animation: fade-out .4s ease-in-out .4s forwards;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.navbar-text{
+    margin-left: 15px;
+}
+
+.hidden{
+    display: none;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}

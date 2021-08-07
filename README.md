@@ -12,7 +12,9 @@ Kent Liusudarso (16520477),<br>
 Thomas Stefen Mardianto (16520498),<br>
 
 # Manual (Development)
-Install package setelah clone
+Install npm atau yarn setelah clone pertama kali
+## NPM
+Setelah clone,
 ```
 npm i
 ```
@@ -20,7 +22,12 @@ Tengok aplikasi
 ```
 npm start
 ```
-atau
+## yarn
+setelah clone,
+```
+yarn add .
+```
+Tengok aplikasi
 ```
 yarn serve
 ```

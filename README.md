@@ -10,3 +10,17 @@ Mahesa Lizardy (16520362),<br>
 Fransiskus Davin Anwari (16520405),<br>
 Kent Liusudarso (16520477),<br>
 Thomas Stefen Mardianto (16520498),<br>
+
+# Manual (Development)
+Install package setelah clone
+```
+npm i
+```
+Tengok aplikasi
+```
+npm start
+```
+atau
+```
+yarn serve
+```

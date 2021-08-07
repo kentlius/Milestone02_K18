@@ -1,6 +1,6 @@
 .boxNav{
     background-color: #222831;
-    position: absolute;
+    position: fixed;
     width: 10vh;
     height: 100vh;
 }

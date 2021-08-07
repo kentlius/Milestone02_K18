@@ -4,7 +4,7 @@ import { NavbarData } from './NavbarData';
 import { IconContext } from 'react-icons';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';
-import './Navbar.css';
+import styles from './Navbar.module.css';
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);
@@ -17,57 +17,38 @@ function Navbar() {
         setBars(!bars);
         setClose(!close);
     };
+
     return (
         <IconContext.Provider value={{ color: '#fff' }}>
-            <div className='nav-btn'>
-                <Link to='#' className= { bars ? 'bars bars-active' : 'hidden'}>
+            <div className={styles.navBtn}>
+                <Link to='#' className= { bars ? styles.bars : styles.hidden }>
                     <FaIcons.FaBars 
                     onClick={
-                        showSidebar 
+                        showSidebar
                     }
                     />
                 </Link>
-                <Link to='#' className={ close ? 'close' : 'hidden'}>
+                <Link to='#' className={ close ? styles.close : styles.hidden}>
                     <MdIcons.MdClose 
                     onClick={
-                        showSidebar 
+                        showSidebar
                     }
                     />
                 </Link>
             </div>
-        <nav className= { sidebar ? 'box-nav active' : 'box-nav inactive'} >
-            <div className= 'navbar'>
+        <nav className= { sidebar ? `${styles.boxNav} ${styles.active}` : `${styles.boxNav} ${styles.inactive}`} >
+            <div className= {styles.navbar}>
                 { NavbarData.map((item, index) => {
                     return (
-                        <div className= 'nav-items'>
+                        <div className= {styles.navItems}>
                             <Link key={index} to={item.path}>
                                 {item.icon}
-                                <span className= { textSidebar ?  'navbar-text fade-in' : 'hidden fade-out'}>{item.title}</span>
+                                <span className= { textSidebar ?  `${styles.navbarText} ${styles.fadeIn}` : `${styles.hidden} ${styles.fadeOut}`}>{item.title}</span>
                             </Link>
                         </div>
                     );
                 })}
             </div>
-            {/* <nav className={ sidebar ? 'nav-menu active' : 'nav-menu' }>
-                <ul className='nav-menu-items'>
-                    <li className='navbar-toggle'>
-                        <Link to='#' className='menu-bars' onClick= {showSidebar}>
-                            <AiIcons.AiOutlineClose/>
-                        </Link>
-                    </li>
-                    { NavbarData.map((item, index) => {
-                        return (
-                            <li key={index} className={item.cName}>
-                                <Link to={item.path}>
-                                    {item.icon}
-                                    <span>{item.title}</span>
-                                </Link>
-                            </li>
-                        );
-                    })}
-
-                </ul>
-            </nav> */}
         </nav>
     </IconContext.Provider>
     )

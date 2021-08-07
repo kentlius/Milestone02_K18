@@ -1,4 +1,4 @@
-.box-nav{
+.boxNav{
     background-color: #222831;
     position: absolute;
     width: 10vh;
@@ -12,35 +12,33 @@
 }
 
 .close{
-    left: 40px;
-    animation: slide .5s ease-out .25s forwards;
+    animation: slide .55s ease-out .25s forwards;
     opacity: 0;
 }
 
 @keyframes slide{
     0%{
-        left: 40px;
+        left: 0vh;
         opacity: 0;
     }
     100%{
-        left: 130px;
+        left: 20vh;
         opacity: 1;
     }
 }
 
-.nav-btn{
+.navBtn{
     width: 10vh;
     display: flex;
     justify-content: flex-start;
     position: absolute;
-    margin: 10px 15px;
+    margin: 3vh 3vh;
     font-size: 1.5rem;
 }
 
 .navbar {
-    background-color: #222831;
     height: 100vh;
-    margin: 0 15px;
+    margin: 0 3vh;
     display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -48,6 +46,7 @@
 	align-items: stretch;
 	align-content: flex-start;
     padding-top: 60px;
+    transform: translateY(30%);
 }
 
 .active{
@@ -92,22 +91,22 @@
     }
 }
   
-.nav-items{
+.navItems{
     margin: 10px 0;
     height: 30px;
     font-size: 1.5rem;
 }
 
-.nav-items span{
+.navItems span{
     font-size: small;
     opacity: 0;
 }
 
-.fade-in{
+.fadeIn{
     animation: fade-in .4s ease-in-out .4s forwards;
 }
 
-.fade-out{
+.fadeOut{
     animation: fade-out .4s ease-in-out .4s forwards;
 }
 
@@ -129,7 +128,7 @@
     }
 }
 
-.navbar-text{
+.navbarText{
     margin-left: 15px;
 }
 
@@ -140,4 +139,8 @@
 a{
     color: #fff;
     text-decoration: none;
+}
+
+a:hover{
+    color: #C4EDDE;
 }

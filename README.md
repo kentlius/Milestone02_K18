@@ -29,5 +29,5 @@ yarn add .
 ```
 Tengok aplikasi
 ```
-yarn serve
+yarn start
 ```

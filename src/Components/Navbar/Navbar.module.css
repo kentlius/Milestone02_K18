@@ -12,13 +12,13 @@
 }
 
 .close{
-    animation: slide .55s ease-out .25s forwards;
+    animation: slide .65s .2s forwards;
     opacity: 0;
 }
 
 @keyframes slide{
     0%{
-        left: 0vh;
+        left: 4vh;
         opacity: 0;
     }
     100%{
@@ -51,7 +51,7 @@
 
 .active{
     width: 30vh;
-    animation: slide-kanan .8s ease-in-out forwards;
+    animation: slide-kanan .6s ease-in-out forwards;
 }
 
 @keyframes slide-kanan {
@@ -63,24 +63,9 @@
     }
 }
 
-/* .bars-active{
-    animation: bars .5s ease-in-out forwards;
-} */
-
-@keyframes bars {
-    0%{
-        left: 40px;
-        opacity: 0;
-    }
-    100%{
-        left: 0;
-        opacity: 1;
-    }
+.tutup{
+    animation: tutup .7s ease-in-out forwards;
 }
-
-/* .inactive{
-    animation: tutup 1s ease-in-out forwards;
-} */
 
 @keyframes tutup{
     0%{
@@ -93,12 +78,12 @@
   
 .navItems{
     margin: 10px 0;
-    height: 30px;
+    padding: 5px;
+    height: 40px;
     font-size: 1.5rem;
 }
-
 .navItems span{
-    font-size: small;
+    font-size: medium;
     opacity: 0;
 }
 
@@ -107,7 +92,7 @@
 }
 
 .fadeOut{
-    animation: fade-out .4s ease-in-out .4s forwards;
+    animation: fade-out .4s ease-in-out forwards;
 }
 
 @keyframes fade-in{
@@ -143,4 +128,34 @@ a{
 
 a:hover{
     color: #C4EDDE;
+}
+
+.barOut{
+    animation: barOut .5s ease-in-out forwards;
+}
+
+.barIn {
+    animation: barIn .7s ease-in-out forwards;
+}
+
+@keyframes barIn {
+    0%{
+        left: 15vh;
+        opacity: 0;
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes barOut {
+    0%{
+        left: 0;
+        opacity: 1;
+    }
+    100%{
+        left: 15vh;
+        opacity: 0;
+    }
 }

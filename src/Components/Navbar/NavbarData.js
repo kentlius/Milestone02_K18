@@ -7,19 +7,16 @@ export const NavbarData = [
     {
         title: 'Home',
         path : '/',
-        icon : <FaIcons.FaHome/>,
-        cName: 'nav-text'
+        icon : <FaIcons.FaHome/>
     },
     {
         title: 'Chats',
         path : '/chat',
-        icon : <IoIcons.IoMdChatboxes/>,
-        cName: 'nav-text'
+        icon : <IoIcons.IoMdChatboxes/>
     },
     {
         title: 'Connection',
         path : '/connect',
-        icon : <BsIcons.BsPeopleFill/>,
-        cName: 'nav-text'
+        icon : <BsIcons.BsPeopleFill/>
     }
 ];

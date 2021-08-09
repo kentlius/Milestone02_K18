@@ -11,6 +11,19 @@ function Navbar() {
     const [textSidebar, setTextSidebar] = useState(false);
     const [bars, setBars] = useState(true);
     const [close, setClose] = useState(false);
+    const [barClicked, setBarClicked] = useState(false);
+    const [closeClicked, setCloseClicked] = useState(false);
+    const [firstLoad, setFirstLoad] = useState(true);
+
+    const sidebarStatus = sidebar ? `${styles.boxNav} ${styles.active}` : `${styles.boxNav}`;
+    const textSidebarStatus = textSidebar ?  `${styles.navbarText} ${styles.fadeIn}` : `${styles.fadeOut} ${styles.hidden}`;
+    const firstLoadStatus = firstLoad ? `` : `${styles.tutup}`;
+
+    const initialBar = bars ? styles.bars : styles.hidden;
+    const initialClose = close ? styles.close : styles.hidden;
+
+    const barOutAnimation = barClicked ? styles.barOut : '';
+    const barInAnimation = closeClicked ? styles.barIn : '';
     const showSidebar = () => {
         setSidebar(!sidebar);
         setTextSidebar(!textSidebar);
@@ -21,29 +34,37 @@ function Navbar() {
     return (
         <IconContext.Provider value={{ color: '#fff' }}>
             <div className={styles.navBtn}>
-                <Link to='#' className= { bars ? styles.bars : styles.hidden }>
+                <Link to='#' className= { `${barOutAnimation} ${initialBar} ${barInAnimation}` }>
                     <FaIcons.FaBars 
-                    onClick={
-                        showSidebar
+                    onClick={ () =>{
+                            setFirstLoad(true);
+                            setBarClicked(true);
+                            setCloseClicked(false);
+                            showSidebar();
+                        }
                     }
                     />
                 </Link>
-                <Link to='#' className={ close ? styles.close : styles.hidden}>
+                <Link to='#' className={ `${initialClose}` }>
                     <MdIcons.MdClose 
-                    onClick={
-                        showSidebar
+                    onClick={ () => {
+                            setFirstLoad(false);
+                            setBarClicked(false);
+                            setCloseClicked(true);
+                            showSidebar();
+                        }
                     }
                     />
                 </Link>
             </div>
-        <nav className= { sidebar ? `${styles.boxNav} ${styles.active}` : `${styles.boxNav} ${styles.inactive}`} >
+        <nav className= { `${sidebarStatus} ${firstLoadStatus}`} >
             <div className= {styles.navbar}>
                 { NavbarData.map((item, index) => {
                     return (
-                        <div className= {styles.navItems}>
+                        <div className= {`${styles.navItems}`}>
                             <Link key={index} to={item.path}>
                                 {item.icon}
-                                <span className= { textSidebar ?  `${styles.navbarText} ${styles.fadeIn}` : `${styles.hidden} ${styles.fadeOut}`}>{item.title}</span>
+                                <span className= { textSidebarStatus }>{item.title}</span>
                             </Link>
                         </div>
                     );

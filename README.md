@@ -1,5 +1,7 @@
 # Milestone02_K18
+
 ### Kelompok 18 - Nama Kelompok
+
 Azmi Alfatih Salahuddin (16520001),<br>
 Rozan Fadhil Al Hafidz (16520141),<br>
 Maria Khelli (16520184),<br>
@@ -12,22 +14,34 @@ Kent Liusudarso (16520477),<br>
 Thomas Stefen Mardianto (16520498),<br>
 
 # Manual (Development)
+
 Install npm atau yarn setelah clone pertama kali
+
 ## NPM
+
 Setelah clone,
+
 ```
 npm i
 ```
+
 Tengok aplikasi
+
 ```
 npm start
 ```
+
 ## yarn
+
 setelah clone,
+
 ```
 yarn add .
 ```
-Tengok aplikasi
+
+Tengok aplikasi (buka dua terminal)
+
 ```
 yarn start
+yarn start-api
 ```

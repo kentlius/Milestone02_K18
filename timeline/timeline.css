@@ -99,6 +99,37 @@ body {
 
 }
 
+.tanggal{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 88%;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+.jam{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 91.8%;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+
 .kotak_kecil p{
     font-family: "Poppins";
     font-style: italic;
@@ -111,10 +142,25 @@ body {
 
 .identitas {
     position: absolute;
-    width: 96%;
-    height: 20%;
-    left: 2%;
-    top: 5%;
+    width: 52px;
+    height: 52px;
+    left: 40px;
+    top: 20px;
 
-    background: white;
+    background: url(https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop);
+    border-radius: 180px;
+}
+
+.identitas p{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 100%;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFFFFF;
 }

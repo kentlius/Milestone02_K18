@@ -1,0 +1,55 @@
+.profile-tile {
+	padding: 3vmax;
+	margin-bottom: 5vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #D4FFEF;
+
+	width: 35vw;
+	height: 25vh;
+	box-shadow: 4px 4px rgba(108, 193, 241, 0.4);
+}
+
+.profile-tile img {
+	max-width: 100%;
+	height: 5rem;
+	margin: 1vmax;
+	border: black;
+}
+
+.profile-name {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.5rem;
+}
+
+.profile-school {
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.8rem;
+	line-height: 22px;
+}
+
+.profile-bio {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.9rem;
+	line-height: 27px;
+}
+
+.profile-url {
+	font-weight: bold;
+	color: #005256;
+	text-align: end;
+}
+
+/* TODO: ubah jadi mobile-first kalo mau */
+@media screen and (max-width: 600px) {
+	.profile-tile {
+		min-width: 100%;
+	}
+}

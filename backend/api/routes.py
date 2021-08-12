@@ -1,5 +1,5 @@
 import flask_praetorian
-from flask import request
+from flask import request, json, jsonify, make_response
 from api import app, db, guard, cors
 from api.models import User
 
@@ -43,3 +43,19 @@ def refresh():
 def protected():
     return {'message': f'protected endpoint (allowed user \
         {flask_praetorian.current_user().username})'}
+
+@app.route("/api/create", methods=['POST'])
+def create():
+    req= json.loads(request.data)
+    username = User.query.filter_by(username=req['username']).one_or_none()
+    if username:
+        return make_response(jsonify(message = "Sorry, username has been taken!"), 400)
+
+    user = User(username=req['username'],
+                password=guard.hash_password(req['password']),
+                roles="user")
+
+    db.session.add(user)
+    db.session.commit()
+
+    return make_response(jsonify(message = "User created successfully!"), 200)

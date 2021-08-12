@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { login, logout, useAuth } from "../Authentication";
 import "./style/LoginForm.css";
 
@@ -23,6 +24,7 @@ function LoginForm() {
       .then((token) => {
         if (token.access_token) {
           login(token);
+          window.alert("Login successful!");
         } else {
           console.log("Please type in correct username/password");
         }
@@ -65,6 +67,9 @@ function LoginForm() {
       ) : (
         <button onClick={() => logout()}>Logout</button>
       )}
+      <p>
+        Don't have an account yet?<Link to="/register">Sign up</Link>
+      </p>
     </div>
   );
 }

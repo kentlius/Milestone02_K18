@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.regContainer {
+  height: 100vh;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.reg {
+  padding: 4rem 5rem;
+  padding-left: 3rem;
+
+  background-color: #c4edde;
+  border-radius: 10px;
+  border: 5px solid white;
+  box-shadow: 0px 4px 4px rgba(0, 173, 181, 0.2);
+}
+
+.title {
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
+  color: #00adb5;
+}
+
+.inputForm {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  font-size: 1rem;
+
+  border-radius: 5px;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+.inputForm:focus {
+  border: 3px solid #555;
+}
+
+.logButton {
+  width: 100%;
+  border-style: none;
+  padding: 5px 5px;
+  margin: 10px 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: white;
+  background-color: #00adb5;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.logButton:hover {
+  background-color: #006166;
+}
+
+.link {
+  color: #00adb5;
+  font-weight: 700;
+  transition-duration: 0.5s;
+}
+.link:hover {
+  color: #006166;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}

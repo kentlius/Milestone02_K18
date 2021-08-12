@@ -5,7 +5,7 @@ import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Registration from "./Pages/Registration";
 import Social from "./Pages/Social";
-import Chat from "./Pages/Chat";
+import Chat from "./Pages/Chat/Chat";
 import PrivateRoute from "./Components/PrivateRoute";
 import "./App.css";
 

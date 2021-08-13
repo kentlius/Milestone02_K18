@@ -1,0 +1,78 @@
+.main{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.chatBox{
+    width: auto;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: darkgreen solid 1px;
+    border-radius: 5px;
+}
+
+.riwayatChat{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sent,
+.receive{
+    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 80%;
+}
+
+.sent{
+    margin-right: 2%;
+    align-self: flex-end;
+    background-color: #C4EDDE !important;
+}
+
+.receive{
+    margin-left: 2%;
+    align-self: flex-start;
+    background-color: #ECFFF8 !important;
+}
+
+.bottomChat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.messageBox{
+    width: 96%;
+    height: 20vh !important;
+    max-height: 30px;
+    align-self: center;
+    padding-left: 1%;
+    border-radius: 5px;
+    border: none;
+    background: #EEEEEE;
+    box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+}
+
+.sendBox{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #C4EDDE;
+    display: flex;
+}
+
+.sendBox a{
+    transform: translate(50%, 20%);
+}
+
+.sendBox a:hover{
+    color: black;
+}

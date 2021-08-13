@@ -11,7 +11,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Router>
         <Navbar />
         <Switch>
@@ -22,7 +22,7 @@ function App() {
           <PrivateRoute path="/chat" exact component={Chat} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { login, logout, useAuth } from "../Authentication";
-import "./style/LoginForm.css";
+import styles from "./style/LoginForm.module.css";
 
 function LoginForm() {
   const [username, setUsername] = useState("");
@@ -10,7 +10,6 @@ function LoginForm() {
 
   const onSubmitClick = (event) => {
     event.preventDefault();
-    console.log("You pressed login button");
     let data = {
       username: username,
       password: password,
@@ -26,7 +25,7 @@ function LoginForm() {
           login(token);
           window.alert("Login successful!");
         } else {
-          console.log("Please type in correct username/password");
+          window.alert("Please type in correct username/password");
         }
       });
   };
@@ -40,36 +39,51 @@ function LoginForm() {
   };
 
   return (
-    <div>
-      <h2>Login</h2>
-      {!logged ? (
-        <form action="#">
+    <div className={styles.loginContainer}>
+      <div className={styles.login}>
+        <h2 className={styles.title}>Login</h2>
+        {!logged ? (
           <div>
-            <input
-              type="text"
-              placeholder="Username"
-              onChange={handleUsernameChange}
-              value={username}
-            />
+            <form action="#">
+              <div>
+                <input
+                  className={styles.inputForm}
+                  type="text"
+                  placeholder="Username"
+                  onChange={handleUsernameChange}
+                  value={username}
+                />
+              </div>
+              <div>
+                <input
+                  className={styles.inputForm}
+                  type="password"
+                  placeholder="Password"
+                  onChange={handlePasswordChange}
+                  value={password}
+                />
+              </div>
+              <button
+                className={styles.logButton}
+                onClick={onSubmitClick}
+                type="submit"
+              >
+                Login Now
+              </button>
+            </form>
+            <p>
+              Don't have an account yet?{" "}
+              <Link className={styles.link} to="/register">
+                Sign up
+              </Link>
+            </p>
           </div>
-          <div>
-            <input
-              type="password"
-              placeholder="Password"
-              onChange={handlePasswordChange}
-              value={password}
-            />
-          </div>
-          <button onClick={onSubmitClick} type="submit">
-            Login Now
+        ) : (
+          <button className={styles.logButton} onClick={() => logout()}>
+            Logout
           </button>
-        </form>
-      ) : (
-        <button onClick={() => logout()}>Logout</button>
-      )}
-      <p>
-        Don't have an account yet?<Link to="/register">Sign up</Link>
-      </p>
+        )}
+      </div>
     </div>
   );
 }

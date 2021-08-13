@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./style/RegistrationForm.css";
+import styles from "./style/RegistrationForm.module.css";
 
 function RegistrationForm() {
   const [username, setUsername] = useState("");
@@ -9,7 +9,9 @@ function RegistrationForm() {
 
   const onSubmitClick = (event) => {
     event.preventDefault();
-    if (password === confirmPassword) {
+    if (username == "" || password == "" || confirmPassword == "") {
+      window.alert("Please fill the form!");
+    } else if (password === confirmPassword) {
       let data = {
         username: username,
         password: password,
@@ -37,40 +39,52 @@ function RegistrationForm() {
   };
 
   return (
-    <div>
-      <h2>Register</h2>
-      <form action="#">
-        <div>
-          <input
-            type="text"
-            placeholder="Username"
-            onChange={handleUsernameChange}
-            value={username}
-          />
-        </div>
-        <div>
-          <input
-            type="password"
-            placeholder="Password"
-            onChange={handlePasswordChange}
-            value={password}
-          />
-        </div>
-        <div>
-          <input
-            type="password"
-            placeholder="Confirm Password"
-            onChange={handleConfirmPasswordChange}
-            value={confirmPassword}
-          />
-        </div>
-        <button onClick={onSubmitClick} type="submit">
-          Register Now
-        </button>
-      </form>
-      <p>
-        Already have an account?<Link to="/login">Sign in</Link>
-      </p>
+    <div className={styles.regContainer}>
+      <div className={styles.reg}>
+        <h2 className={styles.title}>Register</h2>
+        <form action="#">
+          <div>
+            <input
+              className={styles.inputForm}
+              type="text"
+              placeholder="Username"
+              onChange={handleUsernameChange}
+              value={username}
+            />
+          </div>
+          <div>
+            <input
+              className={styles.inputForm}
+              type="password"
+              placeholder="Password"
+              onChange={handlePasswordChange}
+              value={password}
+            />
+          </div>
+          <div>
+            <input
+              className={styles.inputForm}
+              type="password"
+              placeholder="Confirm Password"
+              onChange={handleConfirmPasswordChange}
+              value={confirmPassword}
+            />
+          </div>
+          <button
+            className={styles.logButton}
+            onClick={onSubmitClick}
+            type="submit"
+          >
+            Register Now
+          </button>
+        </form>
+        <p>
+          Already have an account?{" "}
+          <Link className={styles.link} to="/login">
+            Sign in
+          </Link>
+        </p>
+      </div>
     </div>
   );
 }

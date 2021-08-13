@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { logout } from "../Authentication";
 
+//ga kepake ini, nanti diapus aja
 function Chat() {
   return (
     <div style={{ width: "80%", margin: "auto" }}>

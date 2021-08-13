@@ -2,11 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { logout } from "../Authentication";
 
-//ga kepake ini, nanti diapus aja
-function Chat() {
+function Social() {
   return (
     <div style={{ width: "80%", margin: "auto" }}>
-      <h3>Hi, this is Chat Page!</h3>
+      <h3>Hi, this is Social Page!</h3>
       <Link to="/">
         <p style={{ color: "white", background: "black" }}>Back to Home</p>
       </Link>
@@ -15,4 +14,4 @@ function Chat() {
   );
 }
 
-export default Chat;
+export default Social;

@@ -1,40 +1,48 @@
 import ProfileAvatar from '../../Assets/ProfileAvatar.png'
 
-// Yang level2 maudy ayunda itu
-
 const parentStyles = {
 	display: "flex",
 	flexDirection: "row",
 }
 
-const NameStyles = {
+const avatarStyle = {
+	height: "10vh",
+	marginRight: "1vw"
+}
+
+const nameStyles = {
 	fontFamily: "Poppins, sans-serif",
 	fontStyle: "normal",
 	fontWeight: "500",
-	fontSize: "24px",
+	fontSize: "1.2rem",
 	lineHeight: "36px"
 }
 
 const progressBar = {
-	width: "100%",
+	width: "80%",
 	height: "1vh",
 	backgroundColor: "#D1FDFF",
+	borderRadius: "5px"
 }
 
 const progress = {
 	height: "100%",
-	backgroundColor: "#00ADB5"
+	width: "70%",
+	backgroundColor: "#00ADB5",
+	borderRadius: "5px"
 }
 
 const MyProfile = () => {
 	return(
 		<div style={parentStyles}>
-			<img src={ProfileAvatar}/>
-			<div style={NameStyles}>
-				Maudy Ayunda
-			</div>
-			<div style={progressBar}>
-				<div style={progress}></div>
+			<img src={ProfileAvatar} style={avatarStyle}/>
+			<div>
+				<div style={nameStyles}>
+					Maudy Ayunda
+				</div>
+				<div style={progressBar}>
+					<div style={progress}></div>
+				</div>
 			</div>
 		</div>
 	)

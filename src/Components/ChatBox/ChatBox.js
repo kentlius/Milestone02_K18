@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import styles from './Chat.module.css';
+import styles from './ChatBox.module.css';
 import { Grid, Link, Paper } from '@material-ui/core';
 import { DataChat } from './DataChat';
 import * as IoIcons from 'react-icons/io';
 
-function Chat() {
+function ChatBox() {
     const [pesan, setPesan] = useState('');
 
     const submitPesan = () => {
@@ -40,7 +40,7 @@ function Chat() {
                 <Grid className={styles.bottomChat}>
                     <input
                         type="text"
-                        placeholder='Pesan'
+                        placeholder='Enter a message'
                         className= {styles.messageBox}
                         value= {pesan}
                         onChange={ e => setPesan(e.target.value)}
@@ -56,4 +56,4 @@ function Chat() {
     )
 }
 
-export default Chat
+export default ChatBox

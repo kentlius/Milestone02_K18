@@ -1,19 +1,35 @@
 
 export const DataChat =  [
     {
-        sent : true,
-        body : "Hallo, Budi. Gimana kabarnya?"
+        sent : false,
+        body : "p"
     },
     {
         sent : false,
-        body : "Sehat, Di. ada apa?"
+        body : "p"
     },
     {
         sent : true,
-        body : "Emm anu, ini, mau pinjem duit, 2 juta doang bisa ngga?"
+        body : "Apaaaa?"
     },
     {
         sent : false,
-        body : "Sini, Di. Besok ya!"
+        body : "Aku ada tebak-tebakan nih"
+    },
+    {
+        sent : false,
+        body : "Tau ngga variabel yang nilainya selalu lebih kecil dari 3u?"
+    },
+    {
+        sent : true,
+        body : "Hah? kok aneh banget, ngga tau deh. Emang apa?"
+    },
+    {
+        sent : false,
+        body : "Jawabannya i, soalnya i<3u"
+    },
+    {
+        sent : true,
+        body : "Awww kamu sweet banget deh"
     }
 ];

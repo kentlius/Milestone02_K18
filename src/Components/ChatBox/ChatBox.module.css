@@ -1,19 +1,19 @@
 .main{
     width: auto;
-    margin-left: 10vh;
-    padding: 10%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .chatBox{
-    width: 500px;
-    height: 50vh;
-    background-color: #efefef;
+    width: auto;
+    height: 100%;
+    background-color: #FFFFFF;
     padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     border: darkgreen solid 1px;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .riwayatChat{
@@ -26,20 +26,19 @@
 .receive{
     margin-bottom: 10px;
     padding: 5px;
+    max-width: 80%;
 }
 
 .sent{
     margin-right: 2%;
-    max-width: 50%;
     align-self: flex-end;
-    background-color: lightgreen !important;
+    background-color: #C4EDDE !important;
 }
 
 .receive{
     margin-left: 2%;
-    max-width: 50%;
     align-self: flex-start;
-    background-color: azure !important;
+    background-color: #ECFFF8 !important;
 }
 
 .bottomChat{
@@ -51,20 +50,22 @@
 }
 
 .messageBox{
-    min-width: 90%;
-    max-width: 90%;
+    width: 96%;
     height: 20vh !important;
     max-height: 30px;
     align-self: center;
     padding-left: 1%;
     border-radius: 5px;
+    border: none;
+    background: #EEEEEE;
+    box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
 }
 
 .sendBox{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: lightgreen;
+    background-color: #C4EDDE;
     display: flex;
 }
 

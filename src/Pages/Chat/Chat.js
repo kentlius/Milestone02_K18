@@ -1,4 +1,5 @@
 import React from 'react'
+import ChatBox from '../../Components/ChatBox/ChatBox'
 import style from './Chat.module.css'
 import img1 from "./maudy.jpg"
 
@@ -32,7 +33,9 @@ function Chat() {
                 </div>
                 <div className = {style.containerkanan}>
                     <div className = { style.container2}></div>
-                    <div className = { style.container3}></div>
+                    <div className = { style.container3}>
+                        <ChatBox/>
+                    </div>
                 </div>
                 
             </div>

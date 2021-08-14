@@ -21,6 +21,17 @@ function ChatBox() {
         }
     }
 
+    const handleKeyDown = (e) => {
+        if (e.key === 'Enter' || e.keyCode === 13){
+            const message = {
+                sent : true,
+                body : pesan
+            }
+            DataChat.push(message);
+            setPesan('');
+        }
+    }
+
     return (
         <div className={styles.main}>
             <Grid className={styles.chatBox}>
@@ -44,6 +55,7 @@ function ChatBox() {
                         className= {styles.messageBox}
                         value= {pesan}
                         onChange={ e => setPesan(e.target.value)}
+                        onKeyDown={handleKeyDown}
                     />
                     <div className={styles.sendBox}>
                         <Link onClick={submitPesan}>

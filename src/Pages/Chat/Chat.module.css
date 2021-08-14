@@ -4,6 +4,9 @@
     height: 100vh;
     font-family: "Poppins";
     background: #FFFFFF;
+    background: linear-gradient(179.05deg, rgba(241, 255, 250, 0) 0.82%, #FFFFFF 0.83%, #D9FFF1 73.34%);
+    background-size: cover;
+    padding-left: 1%;
  }
 
 .profile {
@@ -17,7 +20,7 @@
     padding: 1%;
     /* background: red; */
     display: flex;
-    width: 20%;
+    width: 30%;
     align-items: center;
 
 }
@@ -43,7 +46,7 @@
 .kotakkecil1{
     width: 84px;
     height: 11px;
-    background: #FF847C;
+    background: #00ADB5;
     border-radius: 5px;
     height: 11px;
     margin-left: 10px ;
@@ -56,7 +59,7 @@
     width: 132px;
     height: 11px;
     margin-left: 10px ;
-    background: #FFDEC3;
+    background: #D1FDFF;
     border-radius: 5px;
 }
 .namepage{
@@ -87,7 +90,7 @@
     background: #CFFFEE;
 }
 .namechat{
-    margin-left: 20px ;
+    margin-left: 2%;
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
@@ -130,7 +133,8 @@
     /* margin-left:50vh; */
     /* margin-bottom: 20px; */
     width: 90%;
-    height: 20%;
+    height: 15%;
+    min-height: 100px;
     background: #FFFFFF;
     box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.3);
     border-radius: 10px;
@@ -160,6 +164,7 @@
     border: none;
     align-items: center;
     font-style: "Poppins" ;
+    cursor: pointer;
 }
 
 .fontb{

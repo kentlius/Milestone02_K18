@@ -46,8 +46,10 @@ function Chat() {
                             </div>
                         </div>
                     </div>
-                    <div className = { style.container3}></div>
+                    
+                    <div className = { style.container3}>
                         <ChatBox/>
+                    </div>
                     </div>
 
             </div>

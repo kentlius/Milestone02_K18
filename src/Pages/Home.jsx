@@ -11,11 +11,11 @@ function Home() {
             <h1 className={styles.selamatDatang}>Selamat datang, Pelajar!</h1>
             <p className={styles.quote}>Apapun yang dilakukan oleh seseorang itu, hendaknya dapat bermanfaat 
                 bagi dirinya sendiri, bermanfaat bagi bangsanya, dan bermanfaat 
-                bagi manusia di dunia pada umumnya.- Ki Hajar Dewantara</p>
+                bagi manusia di dunia pada umumnya. <br/> <b>- Ki Hajar Dewantara</b></p>
             <button type="button" className={styles.landingPageButton}><div className={styles.mulai}>Mulai!</div></button>
         </div>
-        <div className={styles.image}>
-            <img src={Gambar}/>
+        <div className={styles.imageContainer}>
+            <img width="85%" height="85%"src={Gambar}/>
         </div>
     </div>
     </div>

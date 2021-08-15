@@ -20,6 +20,13 @@ const connectionData = [
 		bio: "Hello! I'm a coding enthusiast, let's connect!",
 		username: 'tuanmorgan'
 	},
+	{
+		category: "organisasi",
+		name: "Kura-kura",
+		school: "SMA Amfibia",
+		bio: "Hello! I'm ketua OSIS se-Indonesia, let's connect!",
+		username: 'gtw'
+	},
 ]
 
 export default connectionData

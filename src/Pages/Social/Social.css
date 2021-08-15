@@ -61,6 +61,7 @@
 	color: #00ADB5;
 	font-weight: 500;
 	line-height: 2;
+	cursor: pointer;
 }
 
 .filter-button.active {

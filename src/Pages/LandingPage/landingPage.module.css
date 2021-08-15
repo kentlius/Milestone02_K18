@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.body {
+  padding : 20px;
+  width: auto;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #edfff8 83.85%,
+    rgba(221, 255, 243, 0.83) 100%
+  );
+  align-items: center;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.selamatDatang {
+  position: static;
+  width: 569px;
+  height: 158px;
+  left: 151px;
+  top: 276px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 81px;
+  text-align: right;
+
+  color: #222831;
+}
+
+.quote {
+  position: sticky;
+  width: 482px;
+  height: 231px;
+  left: 228px;
+  top: 462px;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: right;
+  color: #222831;
+}
+
+.landingPageButton {
+  /* Button */
+  position: sticky;
+  width: 341px;
+  height: 47px;
+  left: 375px;
+  top: 696px;
+
+  /* Rectangle 10 */
+  background: #00aab1;
+  border-radius: 5px;
+
+  /* Mulai! */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* Vector */
+.image {
+  position: relative;
+  margin-left: 75px;
+}

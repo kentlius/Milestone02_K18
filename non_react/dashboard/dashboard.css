@@ -3,10 +3,10 @@ img { position: absolute; display: block; margin: 0px; border: none; padding: 0p
 div { position: absolute; }
 
 #content-container { display: block; position: relative; width: 1440px;  margin-left: auto; margin-right: auto;  }
-/*
-#maudy_ayunda {
+
+.Maudy_Ayunda {
 	top: 321px;
-	left: 465px;
+	left: 445px;
 	width: 309px;
 	height: 72px;
 	overflow: hidden;
@@ -17,7 +17,7 @@ div { position: absolute; }
 }
 
 
-#sma_british_international_school {
+.sma_british_international_school {
 	top: 378px;
 	left: 481px;
 	width: 300px;
@@ -31,7 +31,7 @@ div { position: absolute; }
 }
 
 
-#__basketball__music__vibes {
+.hashtags {
 	top: 449px;
 	left: 481px;
 	width: 259px;
@@ -45,7 +45,7 @@ div { position: absolute; }
 }
 
 
-#taken_by_tom {
+.taken_by_tom {
 	top: 413px;
 	left: 481px;
 	width: 300px;
@@ -59,7 +59,7 @@ div { position: absolute; }
 }
 
 
-#hello__i_am_a_music_enthusiastic__let_s_connect_ {
+.bio {
 	top: 299px;
 	left: 922px;
 	width: 393px;
@@ -73,7 +73,7 @@ div { position: absolute; }
 
 
 
-#juara_1_osn_bidang_matematika_tingkat_kabupaten {
+.juarapertama {
 	top: 810px;
 	left: 215px;
 	width: 1085px;
@@ -86,7 +86,7 @@ div { position: absolute; }
 }
 
 
-#juara_1_palang_merah_remaja_tingkat_provinsi {
+.juarakedua {
 	top: 927px;
 	left: 215px;
 	width: 1085px;
@@ -99,7 +99,7 @@ div { position: absolute; }
 }
 
 
-#olimpiade_sains_nasional_yang_diselenggarakan_oleh_dinas_pendidikan_di_sma_negeri_1_jakarta_pada_tanggal_24_april_2020 {
+.juarapertamajelas {
 	top: 851px;
 	left: 215px;
 	width: 1133px;
@@ -113,7 +113,7 @@ div { position: absolute; }
 }
 
 
-#lomba_palang_merah_remaja_tahunan_yang_diselenggarakan_oleh_sma_negeri_2_jogjakarta {
+.juarakeduajelas {
 	top: 959px;
 	left: 215px;
 	width: 1082px;
@@ -127,7 +127,7 @@ div { position: absolute; }
 }
 
 
-#try_out_eduka_juli_2021 {
+.kegiatan1 {
 	top: 1205px;
 	left: 215px;
 	width: 1085px;
@@ -139,7 +139,7 @@ div { position: absolute; }
 	color:#000000;
 }
 
-#jadi_burhan {
+.kegiatan1jelas {
 	top: 1245px;
 	left: 215px;
 	width: 1082px;
@@ -152,7 +152,7 @@ div { position: absolute; }
 	color:#000000;
 }
  
-#panitia_wisuda_juli_hmif_tahun_2021 {
+.kegiatan2 {
 	top: 1320px;
 	left: 215px;
 	width: 1085px;
@@ -164,7 +164,7 @@ div { position: absolute; }
 	color:#000000;
 }
 
-#divisi_video_performance___talent {
+.kegiatan2jelas {
 	top: 1360px;
 	left: 215px;
 	width: 1082px;
@@ -176,10 +176,119 @@ div { position: absolute; }
 	text-align: left;
 	color:#000000;
 }
+.square {position: absolute;
+    width: 820px;
+    height: 25px;
+    left: 533px;
+    top: 95px;
+    background: #CFFFEE;}
 */
-#Profil_Picture {
+.Profile_Picture {
 	top: 321px;
 	left: 215px;
 	width: 236px;
 	height: 251px;
 }
+.dashboard {position: relative;
+	width: 1510px;
+	height: 1480px;
+	background: linear-gradient(180deg, #FFFFFF 0%, #EDFFF8 83.85%, rgba(221, 255, 243, 0.83) 100%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.profile {position: absolute;
+    width: 642px;
+    height: 362px;
+    left: 184px;
+    top: 279px;
+    background: #FFFFFF;
+    box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+	 border-radius: 10px;}
+
+
+.tentang {position: absolute;
+    width: 449px;
+    height: 368px;
+    left: 885px;
+    top: 273px;
+    
+    background: #FFFFFF;
+    box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+    border-radius: 10px;}
+
+.prestasi {position: absolute;
+    width: 1150px;
+    height: 249px;
+    left: 184px;
+    top: 775px;
+
+    background: #FFFFFF;
+    box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+    border-radius: 10px;}
+
+.Kegiatan {position: absolute;
+	width: 1144px;
+	height: 246px;  
+	left: 184px;
+	top: 1180px ;
+	background: #ffffff;
+	box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+	border-radius: 10px;}
+
+.dashboardfont {position: absolute;
+	width: 695px;
+	height: 97px;
+	left: 658px;
+	top: 54px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: right;}
+
+.profilefont {position: absolute;
+	width: 286px;
+	height: 47px;
+	left: 184px;
+	top: 215px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 54px;
+	color: #222831}
+
+.tentangsaya {position: absolute;
+	width: 286px;
+	height: 47px;
+	left: 885px;
+	top: 215px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 54px;
+	color: #181D31;}
+
+.prestasifont {position: absolute;
+	width: 286px;
+	height: 47px;
+	left: 190px;
+	top: 705px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 54px;
+	color: #222831;}
+
+.kegiatanfont {position: absolute;
+	width: 286px;
+	height: 47px;
+	left: 190px;
+	top: 1110px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 54px;
+	color: #222831;}

@@ -32,15 +32,14 @@ body {
     text-align: right;
 
     color: #FFFFFF;
-
 }
 
 .garis{
     position: absolute;
-    width: 600px;
+    width: 820px;
     height: 25px;
-    left: 100px;
-    top: 70px;
+    left: 200px;
+    top: 100px;
 
     background: #181D31;
 }
@@ -50,6 +49,7 @@ body {
     width: 1081px;
     height: 311px;
     margin: 50px;
+    left: 550px;
 
     background: #181D31;
     box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
@@ -96,7 +96,6 @@ body {
     position: absolute;
     margin-top: 10%;
     margin-left: 5%
-
 }
 
 .tanggal{
@@ -111,7 +110,6 @@ body {
     line-height: 22px;
 
     color: #FFFFFF;
-
 }
 
 .jam{
@@ -126,9 +124,7 @@ body {
     line-height: 22px;
 
     color: #FFFFFF;
-
 }
-
 
 .kotak_kecil p{
     font-family: "Poppins";
@@ -142,7 +138,7 @@ body {
 
 .identitas {
     position: absolute;
-    width: 52px;
+    width: 60px;
     height: 52px;
     left: 40px;
     top: 20px;
@@ -163,4 +159,63 @@ body {
     line-height: 22px;
 
     color: #FFFFFF;
+}
+
+.profile {
+    position: absolute;
+    width: 263px;
+    height: 70px;
+    left: 450px;
+    top: 45px;
+}
+
+.circle{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 138px;
+    top: 45px;
+
+    background: #FFB69F;
+}
+
+.profile p{
+    position: absolute;
+    width: 216px;
+    height: 36px;
+    left: 185px;
+    top: 30px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.stats{
+    position: absolute;
+    width: 132px;
+    height: 11px;
+    left: 217px;
+    top: 93px;
+
+    background: #FFDEC3;
+    border-radius: 5px;
+}
+
+.stats2{
+    position: absolute;
+    width: 84px;
+    height: 11px;
+    left: 217px;
+    top: 93px;
+
+    background: #FF847C;
+    border-radius: 5px;
 }

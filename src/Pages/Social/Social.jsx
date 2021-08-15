@@ -2,6 +2,7 @@ import React from "react";
 import MyProfile from '../../Components/MyProfile/MyProfile'
 import ProfileTile from '../../Components/ProfileTile/ProfileTile'
 import './Social.css'
+import { FaSearch } from 'react-icons/fa'
 
 import connectionData from './SocialData'
 
@@ -9,8 +10,9 @@ function Social() {
   return (
     <div style={{ width: "80%", margin: "auto" }}>
 			<MyProfile/>
-			<div>
-				searchbar
+			<div className="search-container">
+				<input className="search-input"/>
+				<span className="search-button"><FaSearch/></span>
 			</div>
 			<div>
 				filter

@@ -1,4 +1,5 @@
 import ProfileAvatar from '../../Assets/ProfileAvatar.png'
+import FotoMaudy from '../../Assets/maudy.jpg'
 import { Link } from 'react-router-dom'
 
 const parentStyles = {
@@ -8,7 +9,8 @@ const parentStyles = {
 
 const avatarStyle = {
 	height: "10vh",
-	marginRight: "1vw"
+	marginRight: "1vw",
+	borderRadius: "50%"
 }
 
 const nameStyles = {
@@ -38,7 +40,7 @@ const MyProfile = () => {
 	return(
 		<Link to="/">
 			<div style={parentStyles}>
-				<img src={ProfileAvatar} style={avatarStyle}/>
+				<img src={FotoMaudy} style={avatarStyle}/>
 				<div>
 					<div style={nameStyles}>
 						Maudy Ayunda

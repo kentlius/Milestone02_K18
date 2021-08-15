@@ -11,7 +11,7 @@ function Social() {
     <div className="social-container">
 			<MyProfile/>
 			<div className="search-container">
-				<input className="search-input"/>
+				<input className="search-input" placeholder="Search..."/>
 				<span className="search-button"><FaSearch/></span>
 			</div>
 			<div className="filter-button-container">

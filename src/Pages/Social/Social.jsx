@@ -14,8 +14,10 @@ function Social() {
 				<input className="search-input"/>
 				<span className="search-button"><FaSearch/></span>
 			</div>
-			<div>
-				filter
+			<div className="filter-button-container">
+				<button className="filter-button">Nonakademik</button>
+				<button className="filter-button">Akademik</button>
+				<button className="filter-button">Organisasi</button>
 			</div>
 			<div className="grid-container">
 				{connectionData.map((data) => {

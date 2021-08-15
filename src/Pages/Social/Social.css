@@ -40,3 +40,26 @@
 	color: white;
 	padding: 1.05% 2%;
 }
+
+.filter-button-container {
+	margin: 0 5vh 5vh 5vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.filter-button {
+	display: block;
+	width: 20vw;
+	font-size: 1.2rem;
+	line-height: 2;
+
+	border: 3px solid #00ADB5;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 10px;
+	color: #00ADB5;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 2;
+}

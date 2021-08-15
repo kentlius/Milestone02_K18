@@ -1,4 +1,5 @@
 import ProfileAvatar from '../../Assets/ProfileAvatar.png'
+import { Link } from 'react-router-dom'
 
 const parentStyles = {
 	display: "flex",
@@ -12,6 +13,7 @@ const avatarStyle = {
 
 const nameStyles = {
 	fontFamily: "Poppins, sans-serif",
+	color: "#000",
 	fontStyle: "normal",
 	fontWeight: "500",
 	fontSize: "1.2rem",
@@ -34,17 +36,19 @@ const progress = {
 
 const MyProfile = () => {
 	return(
-		<div style={parentStyles}>
-			<img src={ProfileAvatar} style={avatarStyle}/>
-			<div>
-				<div style={nameStyles}>
-					Maudy Ayunda
-				</div>
-				<div style={progressBar}>
-					<div style={progress}></div>
+		<Link to="/">
+			<div style={parentStyles}>
+				<img src={ProfileAvatar} style={avatarStyle}/>
+				<div>
+					<div style={nameStyles}>
+						Maudy Ayunda
+					</div>
+					<div style={progressBar}>
+						<div style={progress}></div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</Link>
 	)
 }
 

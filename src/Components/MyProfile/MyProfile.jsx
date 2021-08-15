@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const parentStyles = {
 	display: "flex",
 	flexDirection: "row",
+	padding: "1%"
 }
 
 const avatarStyle = {

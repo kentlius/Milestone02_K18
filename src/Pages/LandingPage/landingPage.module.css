@@ -37,34 +37,34 @@
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
-  font-size: 54px;
+  font-size: 3em;
   line-height: 81px;
   text-align: right;
 
   color: #222831;
 }
 
-.quote {
+.quote{
   position: sticky;
   width: 482px;
   height: 231px;
   left: 228px;
-  top: 462px;
   font-family: Poppins;
   font-style: italic;
   font-weight: 300;
-  font-size: 22px;
+  font-size: 1.2em;
   line-height: 33px;
   text-align: right;
   color: #222831;
 }
+
 
 .landingPageButton {
   /* Button */
   position: sticky;
   width: 341px;
   height: 47px;
-  left: 375px;
+  left: 375em;
   top: 696px;
 
   /* Rectangle 10 */
@@ -84,7 +84,12 @@
 }
 
 /* Vector */
-.image {
+.imageContainer {
   position: relative;
   margin-left: 75px;
+}
+
+.image {
+  width: 80%;
+  height: 80%;
 }

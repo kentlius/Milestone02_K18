@@ -8,7 +8,7 @@ import connectionData from './SocialData'
 
 function Social() {
   return (
-    <div style={{ width: "80%", margin: "auto" }}>
+    <div className="social-container">
 			<MyProfile/>
 			<div className="search-container">
 				<input className="search-input"/>

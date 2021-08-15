@@ -27,7 +27,7 @@ function Social() {
 				})}
 			</div>
     </div>
-  );
+  )
 }
 
 export default Social;

@@ -50,7 +50,7 @@
 
 .filter-button {
 	display: block;
-	width: 20vw;
+	width: 23vw;
 	font-size: 1.2rem;
 	line-height: 2;
 
@@ -60,6 +60,10 @@
 	border-radius: 10px;
 	color: #00ADB5;
 	font-weight: 500;
-	font-size: 24px;
 	line-height: 2;
+}
+
+.filter-button.active {
+	background-color: #00ADB5;
+	color: #fff;
 }

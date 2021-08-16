@@ -13,7 +13,7 @@ Fransiskus Davin Anwari (16520405), Dashboard<br/>
 Kent Liusudarso (16520477), Timeline<br/>
 Thomas Stefen Mardianto (16520498), Dashboard<br/>
 
-Catatan: untuk timeline belum diroute ke react, jadi berantakan
+Catatan: Untuk timeline belum diroute ke react, jadi berantakan. Tampilan timeline ada di folder non_react
 
 # Manual (Development)
 Prereq: Install npm atau yarn setelah clone pertama kali

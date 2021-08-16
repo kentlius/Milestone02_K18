@@ -1,5 +1,5 @@
 import React from "react";
-import Maudy from "./Dashboard/maudy_ayunda.png";
+import Maudy from "./Dashboard/maudy_ayunda.PNG";
 import styles from "./Dashboard/dashboard.module.css"
 
 function Dashboard () {
@@ -8,14 +8,15 @@ function Dashboard () {
         <div className={styles.square}></div>
         <div className={styles.dashboardfont}>Dashboard Belajar Kamu</div>
         <div className={styles.profilefont}>Profil</div>
-        <div className={styles.profile}></div>
+        <div className={styles.profile}>
+            <img src={Maudy} top="20px" left="20px" width="236px" height="251px" />
+        </div>
         <div className={styles.tentang}></div>
         <div className={styles.tentangsaya}>Tentang Saya</div>
         <div className={styles.prestasi}></div>
         <div className={styles.prestasifont}>Prestasi</div>
         <div className={styles.kegiatanfont}>Kegiatan</div>
         <div className={styles.Kegiatan}></div>
-        <img src={Maudy} top="321px" left="215px" width="236px" height="251px"/>
         <div className={styles.Maudy_Ayunda}>Maudy Ayunda</div>
         <div className={styles.sma_british_international_school} >SMA British International School</div>
         <div className={styles.hashtags} >#Basketball #Music #Vibes</div>
@@ -26,7 +27,7 @@ function Dashboard () {
         <div className={styles.juarapertamajelas} >Olimpiade Sains Nasional yang diselenggarakan oleh Dinas Pendidikan di SMA Negeri 1 Jakarta pada tanggal 24 April 2020</div>
         <div className={styles.juarakeduajelas} >Lomba Palang Merah Remaja tahunan yang diselenggarakan oleh SMA Negeri 2 Jogjakarta</div>
         <div className={styles.kegiatan1} >Try Out EDUKA JULI 2021</div>
-        <div className={styles.kegiatan1jelas} >jadi burhan</div>
+        <div className={styles.kegiatan1jelas} >Mengikuti Try Out UTBK keluaran eduka untuk bulan Juli</div>
         <div className={styles.kegiatan2} >Panitia Wisuda Juli HMIF Tahun 2021  </div>
         <div className={styles.kegiatan2jelas} >Divisi Video Performance - Talent</div>
         </div>

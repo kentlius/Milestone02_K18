@@ -9,7 +9,7 @@ Hafidz Nur Rahman Ghozali (16520186),<br/>
 Ubaidillah Ariq Prathama (16520308),<br/>
 Alifia Rahmah (16520309): Social page, README.md<br/>
 Mahesa Lizardy (16520362),<br/>
-Fransiskus Davin Anwari (16520405),<br/>
+Fransiskus Davin Anwari (16520405), Dashboard<br/>
 Kent Liusudarso (16520477),<br/>
 Thomas Stefen Mardianto (16520498),<br/>
 

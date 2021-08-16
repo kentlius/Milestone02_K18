@@ -181,8 +181,9 @@ div { position: absolute; }
     height: 25px;
     left: 533px;
     top: 95px;
-    background: #CFFFEE;}
-*/
+    background: #CFFFEE;
+}
+
 .Profile_Picture {
 	top: 321px;
 	left: 215px;
@@ -203,7 +204,7 @@ div { position: absolute; }
     box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
 	 border-radius: 10px;}
 
-
+.photocontainer {top: 20px; left:20px; width:236px; height:251px }
 .tentang {position: absolute;
     width: 449px;
     height: 368px;

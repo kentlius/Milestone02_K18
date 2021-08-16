@@ -9,7 +9,9 @@ function Dashboard () {
         <div className={styles.dashboardfont}>Dashboard Belajar Kamu</div>
         <div className={styles.profilefont}>Profil</div>
         <div className={styles.profile}>
-            <img src={Maudy} top="20px" left="20px" width="236px" height="251px" />
+            <div className={styles.photocontainer}>
+                <img src={Maudy} top="40px" left="40px" width="236px" height="251px" />
+            </div>
         </div>
         <div className={styles.tentang}></div>
         <div className={styles.tentangsaya}>Tentang Saya</div>

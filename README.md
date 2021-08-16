@@ -2,14 +2,14 @@
 
 ### Kelompok 18 - Nama Kelompok
 
-Azmi Alfatih Salahuddin (16520001),<br/>
+Azmi Alfatih Salahuddin (16520001) : Landing page <br/>
 Rozan Fadhil Al Hafidz (16520141),<br/>
-Maria Khelli (16520184),<br/>
+Maria Khelli (16520184): Sistem dan tampilan register dan login page,<br/>
 Hafidz Nur Rahman Ghozali (16520186),<br/>
 Ubaidillah Ariq Prathama (16520308),<br/>
 Alifia Rahmah (16520309): Social page, README.md<br/>
 Mahesa Lizardy (16520362),<br/>
-Fransiskus Davin Anwari (16520405),<br/>
+Fransiskus Davin Anwari (16520405), Dashboard<br/>
 Kent Liusudarso (16520477),<br/>
 Thomas Stefen Mardianto (16520498),<br/>
 

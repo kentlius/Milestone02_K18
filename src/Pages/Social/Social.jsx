@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import MyProfile from '../../Components/MyProfile/MyProfile'
 import ProfileTile from '../../Components/ProfileTile/ProfileTile'
 import './Social.css'
@@ -7,9 +7,10 @@ import { FaSearch } from 'react-icons/fa'
 import connectionData from './SocialData'
 
 function ConnectionList(props) {
-	if (props.category === 'all') {
+	if (props.searchterm.length > 0){
 		return (
 			connectionData
+			.filter((data) => data.name.toLowerCase().includes(props.searchterm))
 			.map((data) => {
 				return(
 					<ProfileTile className="grid-item" name={data.name} school={data.school} bio={data.bio} username={data.username} />
@@ -17,27 +18,45 @@ function ConnectionList(props) {
 			})
 		)
 	} else {
-		return(
-			connectionData
-			.filter((data) => data.category === props.category)
-			.map((data) => {
-				return(
-					<ProfileTile className="grid-item" name={data.name} school={data.school} bio={data.bio} username={data.username} />
-				);
-			})
-		)
+		if (props.category === 'all') {
+			return (
+				connectionData
+				.map((data) => {
+					return(
+						<ProfileTile className="grid-item" name={data.name} school={data.school} bio={data.bio} username={data.username} />
+					);
+				})
+			)
+		} else {
+			return(
+				connectionData
+				.filter((data) => data.category === props.category)
+				.map((data) => {
+					return(
+						<ProfileTile className="grid-item" name={data.name} school={data.school} bio={data.bio} username={data.username} />
+					);
+				})
+			)
+		}
 	}
 }
 
+/// Referensi React Hooks Search:
+/// https://dev.to/asimdahall/simple-search-form-in-react-using-hooks-42pg
+
 function Social() {
 	const [category, setCategory] = useState('all')
+	const [searchTerm, setSearchTerm] = useState('')
+	const handleChange = (event) => {
+		setSearchTerm(event.target.value)
+	}
 	
   return (
     <div className="social-container">
 			<MyProfile/>
 
 			<div className="search-container">
-				<input className="search-input" placeholder="Search..."/>
+				<input onChange={handleChange} className="search-input" placeholder="Search..."/>
 				<span className="search-button"><FaSearch/></span>
 			</div>
 			
@@ -48,7 +67,7 @@ function Social() {
 			</div>
 
 			<div className="grid-container">
-				<ConnectionList category={category}/>
+				<ConnectionList category={category} searchterm={searchTerm}/>
 			</div>
     </div>
   )

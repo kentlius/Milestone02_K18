@@ -4,21 +4,28 @@ const connectionData = [
 		name: "Jerome Polin",
 		school: "SMAN 5 Surabaya",
 		bio: "Hi! I'm OSN enthusiast, let's connect!",
-		username: 'jeromepolin'
+		imgsrc: "../../Assets/jerome.png",
 	},
 	{
 		category: "nonakademik",
 		name: "Chelsea Islan",
 		school: "Sekolah Internasional Mentari",
 		bio: "Hello! I'm a music enthusiast, let's connect!",
-		username: 'chelseaislan'
+		imgsrc: "../../Assets/chelsea.png",
 	},
 	{
 		category: "akademik",
 		name: "Tuan Morgan",
 		school: "SMAN 2 Pondok Jagung",
 		bio: "Hello! I'm a coding enthusiast, let's connect!",
-		username: 'tuanmorgan'
+		imgsrc: "../../Assets/morgan.png",
+	},
+	{
+		category: "nonakademik",
+		name: "Joremo Pilan",
+		school: "SMAN 5 Surabaya",
+		bio: "Hi! I'm kebalik enthusiast, let's connect!",
+		imgsrc: "../../Assets/joremo.png",
 	},
 	{
 		category: "organisasi",

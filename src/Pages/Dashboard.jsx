@@ -10,7 +10,7 @@ function Dashboard () {
         <div className={styles.profilefont}>Profil</div>
         <div className={styles.profile}>
             <div className={styles.photocontainer}>
-                <img src={Maudy} top="40px" left="40px" width="236px" height="251px" />
+                <img src={Maudy} width="236px" height="251px" />
             </div>
         </div>
         <div className={styles.tentang}></div>

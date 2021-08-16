@@ -4,7 +4,7 @@
 
 Azmi Alfatih Salahuddin (16520001),<br/>
 Rozan Fadhil Al Hafidz (16520141),<br/>
-Maria Khelli (16520184),<br/>
+Maria Khelli (16520184): Sistem dan tampilan register dan login page,<br/>
 Hafidz Nur Rahman Ghozali (16520186),<br/>
 Ubaidillah Ariq Prathama (16520308),<br/>
 Alifia Rahmah (16520309): Social page, README.md<br/>

@@ -15,8 +15,6 @@ div { position: absolute; }
 	text-align: right;
 	color:#222831;
 }
-
-
 .sma_british_international_school {
 	top: 378px;
 	left: 481px;
@@ -29,8 +27,6 @@ div { position: absolute; }
 	text-align: left;
 	color:#222831;
 }
-
-
 .hashtags {
 	top: 449px;
 	left: 481px;
@@ -43,8 +39,6 @@ div { position: absolute; }
 	text-align: left;
 	color:#222831;
 }
-
-
 .taken_by_tom {
 	top: 413px;
 	left: 481px;
@@ -57,7 +51,6 @@ div { position: absolute; }
 	text-align: left;
 	color:#222831;
 }
-
 
 .bio {
 	top: 299px;
@@ -72,6 +65,134 @@ div { position: absolute; }
 }
 
 
+.Jerome_Polin {
+	top: 321px;
+	left: 445px;
+	width: 309px;
+	height: 72px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 36px;
+	text-align: right;
+	color:#222831;
+}
+
+.SMAN_5_Surabaya {
+	top: 378px;
+	left: 481px;
+	width: 300px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#222831;
+}
+
+.hashtags_jerome {
+	top: 449px;
+	left: 481px;
+	width: 259px;
+	height: 50px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#222831;
+}
+
+.Status_Jerome {
+	top: 413px;
+	left: 481px;
+	width: 300px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#222831;
+}
+
+.bio_Jerome {
+	top: 299px;
+	left: 922px;
+	width: 393px;
+	height: 304px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#181D31;
+}
+
+
+.Chelsea_Islan {
+	top: 321px;
+	left: 445px;
+	width: 309px;
+	height: 72px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 36px;
+	text-align: right;
+	color:#222831;
+}
+
+.Sekolah_Internasional_Mentari {
+	top: 378px;
+	left: 481px;
+	width: 300px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#222831;
+}
+
+.hashtags_Chelsea {
+	top: 449px;
+	left: 481px;
+	width: 259px;
+	height: 50px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#222831;
+}
+
+.Status_Chelsea {
+	top: 413px;
+	left: 481px;
+	width: 300px;
+	height: 81px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#222831;
+}
+
+.bio_Chelsea {
+	top: 299px;
+	left: 922px;
+	width: 393px;
+	height: 304px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#181D31;
+}
+
+/*Isi Prestasi_nama*/
 
 .juarapertama {
 	top: 810px;
@@ -127,6 +248,85 @@ div { position: absolute; }
 }
 
 
+.juarapertama_Jerome {
+	top: 810px;
+	left: 215px;
+	width: 1085px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+.juarakedua_Jerome {
+	top: 917px;
+	left: 215px;
+	width: 1085px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+
+.juarapertamajelas_Jerome {
+	top: 851px;
+	left: 215px;
+	width: 1133px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+
+.juarakeduajelas_Jerome {
+	top: 959px;
+	left: 215px;
+	width: 1082px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+.juarapertama_Chelsea {
+	top: 810px;
+	left: 215px;
+	width: 1085px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+.juarapertamajelas_Chelsea {
+	top: 851px;
+	left: 215px;
+	width: 1133px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+/*Isi Kegiatan_nama*/
+
 .kegiatan1 {
 	top: 1205px;
 	left: 215px;
@@ -176,6 +376,57 @@ div { position: absolute; }
 	text-align: left;
 	color:#000000;
 }
+.kegiatan1_Jerome {
+	top: 1215px;
+	left: 215px;
+	width: 1085px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+.kegiatan1jelas_Jerome {
+	top: 1255px;
+	left: 215px;
+	width: 1082px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+ 
+.kegiatan2_Jerome {
+	top: 1320px;
+	left: 215px;
+	width: 1085px;
+	height: 62px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: left;
+	color:#000000;
+}
+
+.kegiatan2jelas_Jerome {
+	top: 1360px;
+	left: 215px;
+	width: 1082px;
+	height: 40px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: italic;
+	text-align: left;
+	color:#000000;
+}
+
+
 .square {position: absolute;
     width: 820px;
     height: 25px;
@@ -232,6 +483,44 @@ div { position: absolute; }
 	background: #ffffff;
 	box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
 	border-radius: 10px;}
+
+.prestasi_Jerome {position: absolute;
+	width: 1150px;
+	height: 249px;
+	left: 184px;
+	top: 775px;
+
+	background: #FFFFFF;
+	box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+	border-radius: 10px;}
+	
+.Kegiatan_Jerome {position: absolute;
+	width: 1144px;
+	height: 246px;  
+	left: 184px;
+	top: 1180px ;
+	background: #ffffff;
+	box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+	border-radius: 10px;}	
+
+.prestasi_Chelsea {position: absolute;
+	width: 1150px;
+	height: 149px;
+	left: 184px;
+	top: 775px;
+	
+	background: #FFFFFF;
+	box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+	border-radius: 10px;}
+		
+.Kegiatan_Chelsea {position: absolute;
+	width: 1144px;
+	height: 246px;  
+	left: 184px;
+	top: 1180px ;
+	background: #ffffff;
+	box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
+	border-radius: 10px;}	
 
 .dashboardfont {position: absolute;
 	width: 695px;

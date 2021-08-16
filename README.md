@@ -1,17 +1,19 @@
 # Milestone02_K18
 
-### Kelompok 18 - Nama Kelompok
+### Kelompok 18 - PrestasIN
 
 Azmi Alfatih Salahuddin (16520001), Landing page<br/>
-Rozan Fadhil Al Hafidz (16520141),<br/>
+Rozan Fadhil Al Hafidz (16520141), Landing page<br/>
 Maria Khelli (16520184), Sistem dan tampilan register dan login page<br/>
-Hafidz Nur Rahman Ghozali (16520186),Membuat Navbar, Membuat ChatBox<br/>
-Ubaidillah Ariq Prathama (16520308),<br/>
+Hafidz Nur Rahman Ghozali (16520186), Membuat Navbar, Membuat ChatBox<br/>
+Ubaidillah Ariq Prathama (16520308), Timeline<br/>
 Alifia Rahmah (16520309), Social page, README.md<br/>
 Mahesa Lizardy (16520362), Membuat template tampilan halaman Chat<br/>
 Fransiskus Davin Anwari (16520405), Dashboard<br/>
 Kent Liusudarso (16520477), Timeline<br/>
-Thomas Stefen Mardianto (16520498),<br/>
+Thomas Stefen Mardianto (16520498), Dashboard<br/>
+
+Catatan: untuk timeline belum diroute ke react, jadi berantakan
 
 # Manual (Development)
 Prereq: Install npm atau yarn setelah clone pertama kali

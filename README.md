@@ -3,7 +3,7 @@
 ### Kelompok 18 - Nama Kelompok
 
 Azmi Alfatih Salahuddin (16520001), Landing page<br/>
-Rozan Fadhil Al Hafidz (16520141),<br/>
+Rozan Fadhil Al Hafidz (16520141), Landing page<br/>
 Maria Khelli (16520184), Sistem dan tampilan register dan login page<br/>
 Hafidz Nur Rahman Ghozali (16520186),Membuat Navbar, Membuat ChatBox<br/>
 Ubaidillah Ariq Prathama (16520308),<br/>

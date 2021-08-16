@@ -5,7 +5,7 @@ body {
     width: 100vw;
     height: 1024px;
 
-    background: linear-gradient(0deg, #384259, #384259);
+    background: linear-gradient(0deg);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -31,7 +31,7 @@ body {
     line-height: 72px;
     text-align: right;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .garis{
@@ -41,7 +41,7 @@ body {
     left: 200px;
     top: 100px;
 
-    background: #181D31;
+    background: #C4EDDE;
 }
 
 .kotak{
@@ -51,7 +51,7 @@ body {
     margin: 50px;
     left: 550px;
 
-    background: #181D31;
+    background: #C4EDDE;
     box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
     border-radius: 10px;
 }
@@ -63,7 +63,7 @@ body {
     left: 5%;
     top: 50%;
     
-    background: #384259;
+    background: #FFFFFF;
     box-shadow: -8px 6px 4px rgba(0, 173, 181, 0.2);
     border-radius: 10px;
 }
@@ -80,18 +80,19 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
+    margin-left: 25px;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .judul{
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
     line-height: 36px;
 
-    color: #FFFFFF;
+    color: #181D31;
     
     position: absolute;
     margin-top: 10%;
@@ -109,7 +110,7 @@ body {
     font-size: 15px;
     line-height: 22px;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .jam{
@@ -123,7 +124,7 @@ body {
     font-size: 15px;
     line-height: 22px;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .kotak_kecil p{
@@ -132,8 +133,10 @@ body {
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
+    margin-left: 20px;
+    margin-top: -10px;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .identitas {
@@ -143,14 +146,14 @@ body {
     left: 40px;
     top: 20px;
 
-    background: url(https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop);
+    background: #FFFFFF;
     border-radius: 180px;
 }
 
 .identitas p{
     position: absolute;
     margin-top: 1%;
-    margin-left: 100%;
+    margin-left: 115%;
 
     font-family: "Poppins";
     font-style: normal;
@@ -158,7 +161,7 @@ body {
     font-size: 15px;
     line-height: 22px;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .profile {
@@ -191,11 +194,10 @@ body {
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    /* identical to box height */
 
     text-align: right;
 
-    color: #FFFFFF;
+    color: #181D31;
 }
 
 .stats{
@@ -205,7 +207,8 @@ body {
     left: 217px;
     top: 93px;
 
-    background: #FFDEC3;
+    background: #D1FDFF;
+    ;
     border-radius: 5px;
 }
 
@@ -216,6 +219,6 @@ body {
     left: 217px;
     top: 93px;
 
-    background: #FF847C;
+    background: #00ADB5;
     border-radius: 5px;
 }

@@ -7,16 +7,16 @@ Rozan Fadhil Al Hafidz (16520141),<br/>
 Maria Khelli (16520184),<br/>
 Hafidz Nur Rahman Ghozali (16520186),<br/>
 Ubaidillah Ariq Prathama (16520308),<br/>
-Alifia Rahmah (16520309),<br/>
+Alifia Rahmah (16520309): Social page, README.md<br/>
 Mahesa Lizardy (16520362),<br/>
 Fransiskus Davin Anwari (16520405),<br/>
 Kent Liusudarso (16520477),<br/>
 Thomas Stefen Mardianto (16520498),<br/>
 
 # Manual (Development)
-Install npm atau yarn setelah clone pertama kali
+Prereq: Install npm atau yarn setelah clone pertama kali
 
-## NPM
+## npm
 Setelah clone,
 ```
 npm i
@@ -58,7 +58,7 @@ home = C:\Python39
 include-system-site-packages = false
 version = 3.9.5
 ```
-Kalo lokasi Python di `home` tidak sesuai dengan konfigurasi di PC, ganti dengan path sendiri (cari dari File Explorer)
+Kalo lokasi Python di variabel `home` tidak sesuai dengan konfigurasi di PC, ganti dengan path sendiri (cari dari File Explorer)
 
 ## Start Server
 1. Copy `python.exe` path from `backend/myenv/Scripts/python.exe`
